@@ -22,10 +22,10 @@ class Actions extends React.Component{
     return(
       <div id="actions-all">
         <ButtonToolbar id="actions-button-bar" className="text-center">
-          <Button onClick={()=>{this.props.setChildStatus("feed")}} bsSize="large" bsStyle="danger">Feed</Button>
-          <Button onClick={()=>{this.props.setChildStatus("play")}} bsSize="large" bsStyle="info">Play</Button>
-          <Button onClick={()=>{this.props.setChildStatus("groom")}} bsSize="large" bsStyle="warning">Change</Button>
-          <Button onClick={()=>{this.props.setChildStatus("sleep")}}bsSize="large" bsStyle="success"> Sleep </Button>
+          <Button onClick={()=>{this.props.setChildStatus("feed")}} bsSize="large" bsStyle="">Feed</Button>
+          <Button onClick={()=>{this.props.setChildStatus("play")}} bsSize="large" bsStyle="">Play</Button>
+          <Button onClick={()=>{this.props.setChildStatus("groom")}} bsSize="large" bsStyle="">Change</Button>
+          <Button onClick={()=>{this.props.setChildStatus("sleep")}}bsSize="large" bsStyle=""> Sleep </Button>
           <Button onClick={this.showConfirmResetModal} id="actions-reset" bsSize="large" bsStyle=""> Reset </Button>
 
           <Modal show={this.state.showModal}>

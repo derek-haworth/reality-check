@@ -13,15 +13,15 @@ import "./App.css";
 const CHILD =
   [
     {
-      name: "Test",
+      name: "Pat",
       birthDate: null
     },
     {
-      name: "Test Two",
+      name: "Pat Two",
       birthDate: null
     },
     {
-      name: "Test Three",
+      name: "Pat Three",
       birthDate: null
     }
   ];
