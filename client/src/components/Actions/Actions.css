@@ -1,0 +1,22 @@
+#actions__button_bar {
+    text-align: center;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.modal-body, .modal-title {
+    color: red;
+    font-weight: bold;
+}
+
+.modal-body{
+    font-size: 150%;
+}
+.modal-title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.modal-footer {
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.basket img {
+    height: 275px;
+    width: 275px;
+    padding: 25px;
+    cursor: pointer;
+}

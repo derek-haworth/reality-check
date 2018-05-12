@@ -1,0 +1,25 @@
+main {
+    height: 100vh;
+}
+
+.progress-bar{
+    background: grey;
+}
+
+.footer {
+    background: #2d2d2d;
+    color: #fff;
+    width: 100%;
+    padding: 40px 0;
+}
+
+footer .copyright small {
+    letter-spacing: .3px;
+    color: #747474;
+    margin-right: 20px;
+}
+
+footer .copyright small a {
+    color: inherit;
+}
+

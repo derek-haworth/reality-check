@@ -1,0 +1,40 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN application",
+  "main": "index.js",
+  "scripts": {
+    "installDeps": "npm install && cd client && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-haworth/mern.git"
+  },
+  "keywords": [],
+  "author": "Derek Haworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-haworth/mern/issues"
+  },
+  "homepage": "https://github.com/derek-haworth/mern#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.17",
+    "path": "^0.12.7",
+    "react-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.4"
+  }
+}
